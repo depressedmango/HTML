@@ -1,0 +1,83 @@
+.Classification:after{
+  #content:"** THIS SYSTEM IS UNCLASSIFIED - FOR OFFICAL USE ONLY (FOUO) **";
+  #content: "👣\201c  These Things We Do, That Others May Live \201d👣";
+  #content:"** SECRET//REL TO USA, FVEY **";
+  content:"NASSAU BAY FIRE DEPT.";
+  #font-style: italic;
+  font-family: Tahoma;
+}
+.Classification{
+
+  width: 100%;
+  height: 20px;
+	text-align: center;
+	color: #fff;
+	font-weight: bold;
+  #background: linear-gradient(#008000 0,#006400 100%);
+  #background: linear-gradient(#760013 ,#760013);
+  #background: linear-gradient(#FF0000 0,#CC0000 100%);
+  background: linear-gradient(#0000FF ,#000099);
+
+}
+.ClassificationBarBottom{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+
+.clock span{
+position: relative;
+color:#fff;
+}
+
+body{
+	height: 20vh;
+    background-color:#000000;
+}
+
+.clock{
+	width: 100%;
+	text-align: center;
+	font-size: 20pt;
+	font-weight: bold;
+  #background: linear-gradient(#006400 0,#000 100%);
+  #background: linear-gradient(#760013 0,#000 100%);
+  #background: linear-gradient(#CC0000 0,#000 100%);
+  background: linear-gradient(#000099 ,#000);
+	color: #FF0;
+}
+	<!-- set dimensions and buffer-->
+.Radar {
+  float: center;
+  width: 50%;
+  padding: 2px;
+}
+
+.Camera {
+  float: center;
+  width: 100%;
+  padding: 2px;
+}
+
+.Texas {
+	right:49%;
+	top:2px;
+	width:49%;
+	height:auto;
+}
+
+.US {
+	right:49%;
+	top:2px;
+	width:49%;
+	height:auto;
+}
+
+.cam {
+	right:19%;
+	top:2px;
+	width:19%;
+	height:auto;
+}
