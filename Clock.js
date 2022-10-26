@@ -39,9 +39,6 @@ ClockMaker = function(output, offset, dst){
 }
   var clocks = new ClockMaker;
   //clocks.clock(I("ElementId"), UTCOffset, observes DST(0 for no, 1 for yes));
-  clocks.clock(I("Phoenix"), -7, 0);
-  clocks.clock(I("Kandahar"), 4.5, 0);
   clocks.clock(I("Zulu"), 0, 0);
   clocks.clock(I("Houston"), -6, 1);
-  clocks.clock(I("Simba"), 3, 0);
 });
